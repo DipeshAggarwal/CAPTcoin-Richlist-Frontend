@@ -2,13 +2,13 @@ html {
 	background: #56524C;
 }
 
+body {
+	margin: 0px;
+}
+
 img {
 	max-width: 100%;
 	height: auto;
-}
-
-body {
-	margin: 0px;
 }
 
 .topHeader {
@@ -28,16 +28,16 @@ body {
 }
 
 .inactive{
-	-webkit-transition: top 1s ease;
-    -moz-transition: top 1s ease;
-    transition: top 1s ease;
+	-webkit-transition: top 0.5s ease;
+    -moz-transition: top 0.5s ease;
+    transition: top 0.5s ease;
 	top: -190px;
 }
 
 .inactive:hover {
-	-webkit-transition: top 1s ease;
-    -moz-transition: top 1s ease;
-    transition: top 1s ease;
+	-webkit-transition: top 0.5s ease;
+    -moz-transition: top 0.5s ease;
+    transition: top 0.5s ease;
 	top: -3px;
 }
 
@@ -54,6 +54,59 @@ body {
 .thirdIcon {
 	position: absolute;
 	left: 887px;
+}
+
+.inputBox {
+    position: relative;
+    top: 150px;
+    left: 12%;
+    width: 1010px;
+    height: 40px;
+    color: #CCCCCC;
+    text-align: center;
+    font-family: Arial;
+    font-size: 24px;
+}
+
+.richRank {
+    position: relative;
+    top: 24%;
+    left: 12%;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.richRank:hover .rankRow, .richRank:hover .amountRow {
+    background: #E28420;
+}
+
+.richRank:hover .addressRow {
+    background: #D59233;
+}
+
+.rankRow {
+    float: left;
+    background: #818181;
+    width: 100px;
+    height:25px;
+}
+
+.addressRow {
+    float: left;
+    background: #646464;
+    width: 450px;
+    height: 25px;
+}
+
+.amountRow {
+    float: left;
+    background: #818181;
+    width: 460px;
+    height: 25px;
 }
 
 .bottomHeader {
