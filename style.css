@@ -69,8 +69,8 @@ img {
 }
 
 .richRank {
-    position: relative;
-    top: 24%;
+    position: absolute;
+    top: 50%;
     left: 12%;
     color: #FFFFFF;
     text-align: center;
