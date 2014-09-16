@@ -12,19 +12,19 @@ img {
 }
 
 .topHeader {
-	width: auto;
-	height: 150px;
+	width: 100%;
+	height: 130px;
 	background: #ebebeb;
 }
 
 .logo {
 	position: absolute;
-	top: 19px;
+	top: 12px;
 	left: 25px;
 }
 
 .active {
-	top: -3px;
+	top: -35px;
 }
 
 .inactive{
@@ -38,7 +38,7 @@ img {
 	-webkit-transition: top 0.5s ease;
     -moz-transition: top 0.5s ease;
     transition: top 0.5s ease;
-	top: -3px;
+	top: -35px;
 }
 
 .firstIcon {
@@ -58,8 +58,8 @@ img {
 
 .inputBox {
     position: absolute;
-    top: 42%;
-    left: 12%;
+    top: 280px;
+    left: 164px;
     width: 1010px;
     height: 40px;
     color: #CCCCCC;
@@ -70,8 +70,8 @@ img {
 
 .richRank {
     position: absolute;
-    top: 50%;
-    left: 12%;
+    top: 340px;
+    left: 164px;
     color: #FFFFFF;
     text-align: center;
     font-family: Arial;
@@ -112,10 +112,44 @@ img {
 
 .bottomHeader {
 	width: 100%;
-	height: 3.0%;
+	height: 20px;
 	background: #ebebeb;
 	position: absolute;
 	top: 97%;
 	left: 0%;
 }
 
+@media (min-height: 820px) {
+    
+    .topHeader {
+        height: 150px;
+    }
+
+    .logo {
+	   top: 19px;
+	   left: 25px;
+    }
+    
+    .active {
+        top: -3px;
+    }
+
+    .inactive:hover {
+        top: -3px;
+    }
+
+    .inputBox {
+        top: 42%;
+        left: 12%;
+    }
+
+    .richRank {
+        top: 50%;
+        left: 12%;
+    }
+
+
+    .bottomHeader {
+        height: 3.0%;
+    }
+}
