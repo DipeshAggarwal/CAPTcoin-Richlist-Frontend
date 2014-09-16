@@ -59,7 +59,7 @@ img {
 .inputBox {
     position: absolute;
     top: 280px;
-    left: 164px;
+    left: 12%;
     width: 1010px;
     height: 40px;
     color: #CCCCCC;
@@ -71,7 +71,7 @@ img {
 .richRank {
     position: absolute;
     top: 340px;
-    left: 164px;
+    left: 12%;
     color: #FFFFFF;
     text-align: center;
     font-family: Arial;
@@ -119,6 +119,32 @@ img {
 	left: 0%;
 }
 
+@media (max-width: 1024px) {
+
+    .inputBox {
+        left: 10%;
+        width: 80%;
+    }
+
+    .richRank {
+        left: 10%;
+        min-width: 80%;
+    }
+
+    .rankRow {
+        width: 10%;
+    }
+
+    .addressRow {
+        width: 45%;
+    }
+
+    .amountRow {
+        width: 45%;
+    }
+
+}
+
 @media (min-height: 820px) {
     
     .topHeader {
@@ -140,14 +166,11 @@ img {
 
     .inputBox {
         top: 42%;
-        left: 12%;
     }
 
     .richRank {
         top: 50%;
-        left: 12%;
     }
-
 
     .bottomHeader {
         height: 3.0%;
