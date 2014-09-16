@@ -131,6 +131,14 @@ img {
     bottom: 0px; 
 }
 
+@media (max-height: 550px) {
+    
+    .bottomHeader {
+        position: absolute;
+        top: 550px;
+    }
+}
+
 @media (max-width: 1024px) {
     
     .firstIcon {
