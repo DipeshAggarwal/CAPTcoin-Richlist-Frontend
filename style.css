@@ -106,7 +106,7 @@ img {
 .rankRow {
     float: left;
     background: #818181;
-    width: 8%;
+    width: 6%;
     height:25px;
     margin-bottom: 5px;
 }
@@ -114,7 +114,7 @@ img {
 .addressRow {
     float: left;
     background: #646464;
-    width: 50%;
+    width: 64%;
     height: 25px;
     margin-bottom: 5px;
 }
@@ -122,7 +122,7 @@ img {
 .amountRow {
     float: left;
     background: #818181;
-    width: 42%;
+    width: 30%;
     height: 25px;
     margin-bottom: 5px;
 }
@@ -135,11 +135,11 @@ img {
     bottom: 0px; 
 }
 
-@media (max-height: 550px) {
+@media (max-height: 650px) {
     
     .bottomHeader {
         position: absolute;
-        top: 550px;
+        top: 680px;
     }
 }
 
