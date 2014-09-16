@@ -13,14 +13,15 @@ img {
 
 .topHeader {
 	width: 100%;
-	height: 130px;
+	height: 100px;
 	background: #ebebeb;
 }
 
-.logo {
+.logo:before {
 	position: absolute;
-	top: 12px;
-	left: 25px;
+	top: 8px;
+	left: 15px;
+    content:url(images/logo_small.png)
 }
 
 .active {
@@ -31,7 +32,7 @@ img {
 	-webkit-transition: top 0.5s ease;
     -moz-transition: top 0.5s ease;
     transition: top 0.5s ease;
-	top: -190px;
+	top: -150px;
 }
 
 .inactive:hover {
@@ -43,24 +44,36 @@ img {
 
 .firstIcon {
 	position: absolute;
-	left: 411px;
+	left: 350px;
 }
 
 .secondIcon {
 	position: absolute;
-	left: 648px;
+	left: 560px;
 }
 
 .thirdIcon {
 	position: absolute;
-	left: 887px;
+	left: 770px;
+}
+    
+.firstIcon:before {
+    content:url(images/richlist_small.png)
+}
+
+.secondIcon:before {
+    content:url(images/addressstats_small.png)
+}
+
+.thirdIcon:before {
+    content:url(images/networkstats_small.png)
 }
 
 .inputBox {
     position: absolute;
-    top: 280px;
-    left: 12%;
-    width: 1010px;
+    top: 240px;
+    left: 10%;
+    width: 80%;
     height: 40px;
     color: #CCCCCC;
     text-align: center;
@@ -70,15 +83,15 @@ img {
 
 .richRank {
     position: absolute;
-    top: 340px;
-    left: 12%;
+    top: 300px;
+    left: 10%;
     color: #FFFFFF;
     text-align: center;
     font-family: Arial;
     font-size: 18px;
     font-weight: bold;
     font-variant: small-caps;
-    min-width: 1200px;
+    min-width: 80%;
 }
 
 .richRank:hover .rankRow, .richRank:hover .amountRow {
@@ -92,21 +105,21 @@ img {
 .rankRow {
     float: left;
     background: #818181;
-    width: 100px;
+    width: 10%;
     height:25px;
 }
 
 .addressRow {
     float: left;
     background: #646464;
-    width: 450px;
+    width: 45%;
     height: 25px;
 }
 
 .amountRow {
     float: left;
     background: #818181;
-    width: 460px;
+    width: 45%;
     height: 25px;
 }
 
@@ -120,27 +133,17 @@ img {
 }
 
 @media (max-width: 1024px) {
-
-    .inputBox {
-        left: 10%;
-        width: 80%;
+    
+    .firstIcon {
+        left: 35%;
     }
-
-    .richRank {
-        left: 10%;
-        min-width: 80%;
+    
+    .secondIcon {
+        left: 55%;
     }
-
-    .rankRow {
-        width: 10%;
-    }
-
-    .addressRow {
-        width: 45%;
-    }
-
-    .amountRow {
-        width: 45%;
+    
+    .thirdIcon {
+        left: 75%;
     }
 
 }
@@ -151,13 +154,42 @@ img {
         height: 150px;
     }
 
-    .logo {
+    .logo:before {
 	   top: 19px;
 	   left: 25px;
+        content:url(images/logo.png)
+    }
+
+    .firstIcon {
+        left: 470px;
+    }
+
+    .secondIcon {
+        left: 720px;
+    }
+
+    .thirdIcon {
+        left: 970px;
+    }
+    
+    .firstIcon:before {
+        content:url(images/richlist.png)
+    }
+
+    .secondIcon:before {
+        content:url(images/addressstats.png)
+    }
+
+    .thirdIcon:before {
+        content:url(images/networkstats.png)
     }
     
     .active {
         top: -3px;
+    }
+    
+    .inactive:{
+        top: -190px;
     }
 
     .inactive:hover {
@@ -165,11 +197,11 @@ img {
     }
 
     .inputBox {
-        top: 42%;
+        top: 36%;
     }
 
     .richRank {
-        top: 50%;
+        top: 43%;
     }
 
     .bottomHeader {
