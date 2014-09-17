@@ -74,11 +74,11 @@ img {
     top: 240px;
     left: 10%;
     width: 80%;
-    height: 40px;
+    height: 3.4vw;
     color: #CCCCCC;
     text-align: center;
     font-family: Arial;
-    font-size: 24px;
+    font-size: 2.2vw;
 }
 
 .richRank {
@@ -88,43 +88,87 @@ img {
     color: #FFFFFF;
     text-align: center;
     font-family: Arial;
-    font-size: 22px;
-    font-weight: bolder;
-    font-variant: small-caps;
+    font-size: 1.6vw;
     min-width: 80%;
     max-width: 80%;
 }
 
 .wrapper:hover .rankRow, .wrapper:hover .amountRow {
+    -webkit-transition: background 0.5s ease;
+    -moz-transition: background 0.5s ease;
+    transition: background 0.5s ease;
     background: #E28420;
 }
 
 .wrapper:hover .addressRow {
+    -webkit-transition: background 0.5s ease;
+    -moz-transition: background 0.5s ease;
+    transition: background 0.5s ease;
     background: #D59233;
+}
+
+.richRank > .rankRow {
+    float: left;
+    background: #818181;
+    width: 6%;
+    height:2vw;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.richRank > .addressRow {
+    float: left;
+    background: #646464;
+    width: 64%;
+    height: 2vw;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+
+.richRank > .amountRow {
+    float: left;
+    background: #818181;
+    width: 30%;
+    height: 2vw;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    font-variant: small-caps;
 }
 
 .rankRow {
     float: left;
-    background: #818181;
     width: 6%;
-    height:25px;
+    height:2vw;
     margin-bottom: 5px;
+    
+    -webkit-transition: background 0.5s ease;
+    -moz-transition: background 0.5s ease;
+    transition: background 0.5s ease;
+    background: #818181;
 }
 
 .addressRow {
     float: left;
-    background: #646464;
     width: 64%;
-    height: 25px;
+    height: 2vw;
     margin-bottom: 5px;
+    -webkit-transition: background 0.5s ease;
+    -moz-transition: background 0.5s ease;
+    transition: background 0.5s ease;
+    background: #646464;
 }
 
 .amountRow {
     float: left;
-    background: #818181;
     width: 30%;
-    height: 25px;
+    height: 2vw;
     margin-bottom: 5px;
+    -webkit-transition: background 0.5s ease;
+    -moz-transition: background 0.5s ease;
+    transition: background 0.5s ease;
+    background: #818181;
 }
 
 .bottomHeader {
