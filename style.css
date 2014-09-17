@@ -142,7 +142,6 @@ img {
     width: 6%;
     height:2vw;
     margin-bottom: 5px;
-    
     -webkit-transition: background 0.5s ease;
     -moz-transition: background 0.5s ease;
     transition: background 0.5s ease;
@@ -210,7 +209,7 @@ img {
 @media (min-height: 820px) {
     
     .topHeader {
-        height: 150px;
+        height: 160px;
     }
 
     .logo:before {
@@ -261,6 +260,31 @@ img {
 
     .richRank {
         top: 46%;
+        font-size: 1.3vw;
+    }
+    
+    .richRank > .rankRow {
+        height:1.6vw;
+    }
+
+    .richRank > .addressRow {
+        height:1.6vw;
+    }
+
+    .richRank > .amountRow {
+        height:1.6vw;
+    }
+
+    .rankRow {
+        height:1.6vw;
+    }
+
+    .addressRow {
+        height:1.6vw;
+    }
+
+    .amountRow {
+        height:1.6vw;
     }
 
     .bottomHeader {
