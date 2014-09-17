@@ -201,6 +201,10 @@ img {
         left: 75%;
     }
 
+    .richRank {
+        top: 285px;
+    }
+
 }
 
 @media (min-height: 820px) {
@@ -256,7 +260,7 @@ img {
     }
 
     .richRank {
-        top: 43%;
+        top: 46%;
     }
 
     .bottomHeader {
